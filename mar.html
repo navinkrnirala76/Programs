@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Forms</title>
+</head>
+<body>
+<form action="1_html_forms.html" method="">
+<h1>Textbox</h1>
+<label for="txtFname">First Name</label>
+<input type="text" id="txtFname" name="Name" value="Navin">
+
+<h1>Radio Buttons</h1>
+<input type="radio" id="radioMale" name="gender" value="male">
+<label for="radioMale">Male</label>
+<br>
+<input type="radio" id="radioFemale" name="gender" value="female">
+<label for="radioFemale">Female</label>
+<br>
+<input type="radio" id="radioOthers" name="gender" value="others">
+<label for="radioOthers">Others</label>
+
+<h1>Checkbox</h1>
+<input type="checkbox" id="chkCar" name="vehical1" value="Car">
+<label for="chkCar">Car</label>
+<input type="checkbox" id="chkByke" name="vehical2" value="Byke">
+<label for="chkByke">Bike</label>
+<input type="checkbox" id="chkBoat" name="vehical3" value="Boat">
+<label for="chkBoat">Boat</label>
+
+<h1>List Items</h1>
+<label for="lstColors">Select Color</label>
+<select name="colors" id="lstColors">
+<option value="green">Green</option>
+<option value="yellow">Yellow</option>
+<option value="blue">Blue</option>
+<option value="red">Red</option>
+<option value="black">Black</option>
+</select>
+<br>
+<br>
+<h1>List with Multiple Selection</h1>
+<label for="lstSubjects">Subjects</label>
+<select name="subjects" id="lstSubjects" multiple>
+<option value="Mathmetics">Mathmetics</option>
+<option value="CPP">CPP</option>
+<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+</select>
+
+<h1>List with default selected item</h1>
+<label for="lstDefaultColors">Default Color</label>
+<select name="colors" id="lstDefaultColors multiple">
+<option value="green">Green</option>
+<option value="yellow">Yellow</option>
+<option value="blue">Blue</option>
+<option value="red" selected>Red</option>
+<option value="black" selected>Black</option>
+</select>
+
+<h1>List displaying two items</h1>
+<label for="1stFoodItems">Food Items</label>
+<select name="Fooditems" id="1stFoodItems" size="2" multiple>
+   <option value="Snacks">Snacks</option>
+   <option value="Icecreams">Icecreams</option>
+   <option value="Biscuits">Biscuits</option>
+   <option value="Cake">Cake</option>
+</select>
+
+<h1> Text Area with default 10 Characters </h1>
+<label for="txtMessage">Any Message</label>
+<textarea name="message" id="txtMessage" cols="30" rows="8" maxlength="10" ></textarea>
+
+<h1>Alert type Button</h1>
+<button type="button" onclick="alert('Everyting Is Fine')">Validate</button>
+<br>
+<br>
+<input type="submit" value="Next">
+</form>
+</body>
+</html>

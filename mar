@@ -1,0 +1,18 @@
+.div1{
+    background-color: lightblue;
+    }
+    .div2{
+    background-color: lightcoral;
+    }
+    .div3{
+    background-color: lightcyan;
+    }
+    .div4{
+    background-color: lightgreen;
+    }
+    .div5{
+    background-color: lightgoldenrodyellow;
+    }
+    .div6{
+    background-color: lightpink;
+    }
